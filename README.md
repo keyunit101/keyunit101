@@ -1,6 +1,3 @@
-
-<h1>Hi, I'm Keyon, an <a href="https://linkedin.com/in/keyon-Alexander">IT Professional</a>☺</h1>
-
 <h2> 👨🏽‍💻Information Technology Projects:</h2>
 
 - <b>osTicket (Help Desk Ticketing System)</b>
@@ -20,17 +17,4 @@
 
 [linkedin]: https://linkedin.com/in/keyon-Alexander
 
-<script>
-  const greeting = document.querySelector('h1');
-  const projectHeading = document.querySelector('h2');
-  const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff'];
-  let currentIndex = 0;
 
-  function changeStyles() {
-    greeting.style.color = colors[currentIndex];
-    projectHeading.style.color = colors[currentIndex];
-    currentIndex = (currentIndex + 1) % colors.length;
-  }
-
-  setInterval(changeStyles, 1000);
-</script>
